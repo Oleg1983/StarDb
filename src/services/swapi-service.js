@@ -39,7 +39,7 @@ export default class SwapiService {
 
 }
 
-const swapi = new SwapiService();
+// const swapi = new SwapiService();
 
 // swapi.getAllPeople().then((people) => {
 //   people.forEach((p) => {
@@ -61,12 +61,12 @@ const swapi = new SwapiService();
 //     console.log(p.name);
 // });
 
-swapi.getAllStarships().then((starships) => {
-  starships.forEach((s) => {
-    console.log(s.name);
-  });  
-});
+// swapi.getAllStarships().then((starships) => {
+//   starships.forEach((s) => {
+//     console.log(s.name);
+//   });  
+// });
 
-swapi.getStarship(9).then((s) => {
-    console.log(s.name);
-});
+// swapi.getStarship(9).then((s) => {
+//     console.log(s.name);
+// });
