@@ -29,7 +29,7 @@ export default class ItemList extends Component {
             key={id}
             onClick={() => this.props.onItemSelected(id)}>
           { name }
-        </li>        
+        </li>
       );
     });
   }
